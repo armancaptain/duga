@@ -538,7 +538,7 @@ class CreditsMenu(Menu):
         self.createdby = TEXT.Text(0,0, 'CREATED  BY', SETTINGS.LIGHTGRAY, "DUGAFONT.ttf", 24)
         self.createdby.update_pos((SETTINGS.canvas_actual_width/2)-(self.createdby.layout.get_width()/2)+8, 130)
 
-        self.maxwellsalmon = TEXT.Text(0,0, 'MAXWELLSALMON', SETTINGS.DARKGRAY, "DUGAFONT.ttf", 38)
+        self.maxwellsalmon = TEXT.Text(0,0, 'arman asl yosef zadeh', SETTINGS.DARKGRAY, "DUGAFONT.ttf", 38)
         self.maxwellsalmon.update_pos((SETTINGS.canvas_actual_width/2)-(self.maxwellsalmon.layout.get_width()/2)+8, 160)
 
         #Music
@@ -552,12 +552,12 @@ class CreditsMenu(Menu):
         self.contributions = TEXT.Text(0,0, 'THANKS  TO', SETTINGS.LIGHTGRAY, "DUGAFONT.ttf", 20)
         self.contributions.update_pos((SETTINGS.canvas_actual_width/2)-(self.contributions.layout.get_width()/2)+8, 290)
 
-        self.contributors = TEXT.Text(0,0, 'POELE,  OLE,  ROCKETTHEMINIFIG,  ANDY BOY,  J4CKINS' , SETTINGS.DARKGRAY, "DUGAFONT.ttf", 20)
+        self.contributors = TEXT.Text(0,0, ' ' , SETTINGS.DARKGRAY, "DUGAFONT.ttf", 15)
         self.contributors.update_pos((SETTINGS.canvas_actual_width/2)-(self.contributors.layout.get_width()/2)+8, 320)
-        self.contributors2 =  TEXT.Text(0,0, 'THEFATHOBBITS,  STARLITEPONY' , SETTINGS.DARKGRAY, "DUGAFONT.ttf", 20)
+        self.contributors2 =  TEXT.Text(0,0, '' , SETTINGS.DARKGRAY, "DUGAFONT.ttf", 15)
         self.contributors2.update_pos((SETTINGS.canvas_actual_width/2)-(self.contributors2.layout.get_width()/2)+8, 345)
 
-        self.specialthanks = TEXT.Text(0,0, 'THANKS  TO  THE  PYGAME  COMMUNITY  FOR  HELP  AND  MOTIVATION', SETTINGS.DARKGRAY, "DUGAFONT.ttf", 15)
+        self.specialthanks = TEXT.Text(0,0, 'THANKS  TO  THE  PYGAME  COMMUNITY  FOR  HELP  AND  MOTIVATION', SETTINGS.DARKGRAY, "DUGAFONT.ttf", 20)
         self.specialthanks.update_pos((SETTINGS.canvas_actual_width/2)-(self.specialthanks.layout.get_width()/2)+8, 380)
 
         self.and_you = TEXT.Text(0,0, 'THANKS  TO  YOU  FOR  PLAYING!' , SETTINGS.GREEN, "DUGAFONT.ttf", 22)
